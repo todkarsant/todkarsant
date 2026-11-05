@@ -2,6 +2,14 @@
 
 I build AI systems that replace manual enterprise workflows — from document intelligence to conversational analytics.
 
+[![Email](https://img.shields.io/badge/Email-santosh.todkar-171a2f?style=flat-square&logo=gmail&logoColor=white)](mailto:santosh.todkar@acronotics.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Santosh_Todkar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santosh-sadashiv-todkar/)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Research-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=YOUR_ID)
+
+---
+
+**2 enterprise AI systems in production** · **7-agent orchestration framework** · **6-stage document extraction pipeline** · **4-tier intelligent routing strategy**
+
 ---
 
 ### Trade Finance Document Intelligence
@@ -30,8 +38,16 @@ Model upgrades, prompt changes, and retrieval tweaks silently degrade quality. I
 
 ---
 
-Python · TypeScript · FastAPI · React · LangGraph · Azure OpenAI · DuckDB · Redis · Azure
+### How I work
+
+I take messy, manual enterprise processes and turn them into deployed AI systems. I own the full cycle — from understanding the business problem, to designing the agent architecture, to shipping production code, to sitting with users and watching what breaks. I don't hand off prototypes. I deploy and iterate until it works.
 
 ---
 
-Bangalore, India · [Email](mailto:santosh.todkar@acronotics.com) · [LinkedIn](https://www.linkedin.com/in/santosh-sadashiv-todkar/)
+Python · TypeScript · FastAPI · React · LangGraph · Azure OpenAI · DuckDB · Redis · Azure
+
+**Currently:** Researching evidence-to-action reliability in AI agents — measuring whether agents that reason correctly also act correctly.
+
+---
+
+Bangalore, India
