@@ -2,9 +2,9 @@
 
 I build AI systems that replace manual enterprise workflows — from document intelligence to conversational analytics.
 
-[![Email](https://img.shields.io/badge/Email-santosh.todkar-171a2f?style=flat-square&logo=gmail&logoColor=white)](mailto:santosh.todkar@acronotics.com)
+[![Email](https://img.shields.io/badge/Email-todkarsant-171a2f?style=flat-square&logo=gmail&logoColor=white)](mailto:todkarsant@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Santosh_Todkar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santosh-sadashiv-todkar/)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Research-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=YOUR_ID)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Research-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=YLQtVPYAAAAJ)
 
 ---
 
