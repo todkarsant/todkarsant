@@ -1,6 +1,6 @@
 # Santosh Todkar
 
-PhD researcher turned AI engineer. I build systems that replace manual enterprise workflows — from document intelligence to conversational analytics.
+I build AI systems that replace manual enterprise workflows — from document intelligence to conversational analytics.
 
 [![Email](https://img.shields.io/badge/Email-todkarsant-171a2f?style=flat-square&logo=gmail&logoColor=white)](mailto:todkarsant@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Santosh_Todkar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santosh-sadashiv-todkar/)
@@ -39,8 +39,6 @@ Model upgrades, prompt changes, and retrieval tweaks silently degrade quality. I
 ---
 
 ### How I work
-
-I started in research — PhD in mechanical engineering, published in *Composites Part B: Engineering* (375+ citations), built computational models before "AI" meant large language models. That research discipline now shapes how I build production systems: hypothesis-driven design, rigorous evaluation, and a bias toward measurable outcomes over demo-ware.
 
 I take messy, manual enterprise processes and turn them into deployed AI systems. I own the full cycle — from understanding the business problem, to designing the agent architecture, to shipping production code, to sitting with users and watching what breaks. I don't hand off prototypes. I deploy and iterate until it works.
 
