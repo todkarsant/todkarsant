@@ -34,4 +34,4 @@ Python · TypeScript · FastAPI · React · LangGraph · Azure OpenAI · DuckDB 
 
 ---
 
-Bangalore, India · [Email](mailto:santosh.todkar@acronotics.com) · [LinkedIn](https://www.linkedin.com/in/santosh-todkar/)
+Bangalore, India · [Email](mailto:santosh.todkar@acronotics.com) · [LinkedIn](https://www.linkedin.com/in/santosh-sadashiv-todkar/)
