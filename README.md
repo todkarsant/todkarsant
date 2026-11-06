@@ -44,7 +44,7 @@ I take messy, manual enterprise processes and turn them into deployed AI systems
 
 ---
 
-Python · TypeScript · FastAPI · React · LangGraph · Azure OpenAI · DuckDB · Redis · Azure
+Python · Docker · FastAPI · SQL · LangGraph · Azure OpenAI · DuckDB · Redis · Azure
 
 **Currently:** Researching evidence-to-action reliability in AI agents — measuring whether agents that reason correctly also act correctly.
 
