@@ -12,6 +12,18 @@ I build AI systems that replace manual enterprise workflows — from document in
 
 ---
 
+### Open Source Contributions
+
+| Org | Repo | PR | Area | Status |
+|-----|------|----|------|--------|
+| <img src="https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white" height="24"> | [garak](https://github.com/NVIDIA/garak) | [#2424](https://github.com/NVIDIA/garak/pull/2424) | Migrate HomoglyphObfuscation detector to ModernBERTRefusal | Open |
+| <img src="https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white" height="24"> | [rocm-libraries](https://github.com/ROCm/rocm-libraries) | [#15453](https://github.com/ROCm/rocm-libraries/pull/15453) | Expose Graph lifecycle and plan APIs in Python bindings | Open |
+| <img src="https://img.shields.io/badge/-Microsoft-5E5E5E?logo=microsoft&logoColor=white" height="24"> | [onnxscript](https://github.com/microsoft/onnxscript) | [#3160](https://github.com/microsoft/onnxscript/pull/3160) | Add op test for torch.unique_consecutive | Open |
+| <img src="https://img.shields.io/badge/-Microsoft-5E5E5E?logo=microsoft&logoColor=white" height="24"> | [onnxscript](https://github.com/microsoft/onnxscript) | [#3162](https://github.com/microsoft/onnxscript/pull/3162) | Use optimized reference ops in constant folding | Open |
+| <img src="https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white" height="24"> | [AgentLab](https://github.com/ServiceNow/AgentLab) | [#343](https://github.com/ServiceNow/AgentLab/pull/343) | Add ecologits carbon/energy metrics to LLM tracking | Open |
+
+---
+
 ### Trade Finance Document Intelligence
 
 Banks process thousands of Letters of Credit manually — reading PDFs page by page, copying fields into spreadsheets, cross-checking amendments by hand. I built a 6-stage AI extraction pipeline with a 4-tier routing strategy that reads, extracts, and validates structured data from LC documents in seconds. Human reviewers now verify AI output instead of doing the work themselves.
