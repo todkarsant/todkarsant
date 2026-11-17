@@ -14,13 +14,29 @@ I build AI systems that replace manual enterprise workflows — from document in
 
 ### Open Source Contributions
 
-| Org | Repo | PR | Area | Status |
-|-----|------|----|------|--------|
-| <img src="https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white" height="24"> | [garak](https://github.com/NVIDIA/garak) | [#2424](https://github.com/NVIDIA/garak/pull/2424) | Migrate HomoglyphObfuscation detector to ModernBERTRefusal | Open |
-| <img src="https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white" height="24"> | [rocm-libraries](https://github.com/ROCm/rocm-libraries) | [#15453](https://github.com/ROCm/rocm-libraries/pull/15453) | Expose Graph lifecycle and plan APIs in Python bindings | Open |
-| <img src="https://img.shields.io/badge/-Microsoft-5E5E5E?logo=microsoft&logoColor=white" height="24"> | [onnxscript](https://github.com/microsoft/onnxscript) | [#3160](https://github.com/microsoft/onnxscript/pull/3160) | Add op test for torch.unique_consecutive | Open |
-| <img src="https://img.shields.io/badge/-Microsoft-5E5E5E?logo=microsoft&logoColor=white" height="24"> | [onnxscript](https://github.com/microsoft/onnxscript) | [#3162](https://github.com/microsoft/onnxscript/pull/3162) | Use optimized reference ops in constant folding | Open |
-| <img src="https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white" height="24"> | [AgentLab](https://github.com/ServiceNow/AgentLab) | [#343](https://github.com/ServiceNow/AgentLab/pull/343) | Add ecologits carbon/energy metrics to LLM tracking | Open |
+#### Awaiting Review — CI Green
+
+| Org | Repo | What It Is | PR | Fix Applied | Status |
+|-----|------|------------|----|-------------|--------|
+| <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> | [docling](https://github.com/docling-project/docling) | Document conversion SDK for gen AI (70K stars) | [#5439](https://github.com/docling-project/docling/pull/5439) | Handle `UnicodeDecodeError` for `.msg` files with 8-bit body — upstream oxmsg bug workaround | ![Open](https://img.shields.io/badge/-Awaiting_Review-2ea44f) |
+| <img src="https://img.shields.io/badge/-Microsoft-5E5E5E?logo=microsoft&logoColor=white" height="24"> | [onnxscript](https://github.com/microsoft/onnxscript) | Author ONNX functions and models in Python | [#3162](https://github.com/microsoft/onnxscript/pull/3162) | Use optimized reference ops in constant folding evaluator | ![Open](https://img.shields.io/badge/-Awaiting_Review-2ea44f) |
+| <img src="https://img.shields.io/badge/-Microsoft-5E5E5E?logo=microsoft&logoColor=white" height="24"> | [onnxscript](https://github.com/microsoft/onnxscript) | Author ONNX functions and models in Python | [#3160](https://github.com/microsoft/onnxscript/pull/3160) | Add op test for `torch.unique_consecutive` | ![Open](https://img.shields.io/badge/-Awaiting_Review-2ea44f) |
+| <img src="https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white" height="24"> | [AgentLab](https://github.com/ServiceNow/AgentLab) | Framework for benchmarking web agents | [#343](https://github.com/ServiceNow/AgentLab/pull/343) | Add ecologits carbon/energy metrics to LLM tracking | ![Open](https://img.shields.io/badge/-Awaiting_Review-2ea44f) |
+| <img src="https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white" height="24"> | [ou-generativeai-pro](https://github.com/oracle-university-labs/ou-generativeai-pro) | Oracle University GenAI Professional labs | [#14](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) | Fix runtime-breaking bugs across agentic AI lab modules | ![Open](https://img.shields.io/badge/-Awaiting_Review-2ea44f) |
+
+#### Changes Requested — In Progress
+
+| Org | Repo | What It Is | PR | Fix Applied | Status |
+|-----|------|------------|----|-------------|--------|
+| <img src="https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white" height="24"> | [garak](https://github.com/NVIDIA/garak) | LLM vulnerability scanner (10K stars) | [#2424](https://github.com/NVIDIA/garak/pull/2424) | Migrate HomoglyphObfuscation detector to ModernBERTRefusal | ![Changes](https://img.shields.io/badge/-Changes_Requested-daa520) |
+| <img src="https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white" height="24"> | [rocm-libraries](https://github.com/ROCm/rocm-libraries) | AMD ROCm GPU compute libraries | [#15453](https://github.com/ROCm/rocm-libraries/pull/15453) | Expose Graph lifecycle and plan APIs in hipDNN Python bindings | ![Changes](https://img.shields.io/badge/-Changes_Requested-daa520) |
+
+#### Closed
+
+| Org | Repo | What It Is | PR | Fix Applied | Status |
+|-----|------|------------|----|-------------|--------|
+| <img src="https://img.shields.io/badge/-Microsoft-5E5E5E?logo=microsoft&logoColor=white" height="24"> | [PyRIT](https://github.com/microsoft/PyRIT) | AI red teaming toolkit | [#3972](https://github.com/microsoft/PyRIT/pull/3972) | Include ordered parameter bindings in TemplateSegmentConverter identity | ![Closed](https://img.shields.io/badge/-Closed-cb2431) |
+| <img src="https://img.shields.io/badge/-Microsoft-5E5E5E?logo=microsoft&logoColor=white" height="24"> | [PyRIT](https://github.com/microsoft/PyRIT) | AI red teaming toolkit | [#3971](https://github.com/microsoft/PyRIT/pull/3971) | Fix occurrence-insensitive n-gram scoring in ApproximateTextMatching | ![Closed](https://img.shields.io/badge/-Closed-cb2431) |
 
 ---
 
