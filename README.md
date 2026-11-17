@@ -1,68 +1,93 @@
 # Santosh Todkar
 
-I build AI systems that replace manual enterprise workflows — from document intelligence to conversational analytics.
+**Applied AI Engineer | Enterprise AI Systems | Python API Engineering | Open-source AI Infrastructure**
 
-[![Email](https://img.shields.io/badge/Email-todkarsant-171a2f?style=flat-square&logo=gmail&logoColor=white)](mailto:todkarsant@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Santosh_Todkar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santosh-sadashiv-todkar/)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-400+_Citations-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=YLQtVPYAAAAJ)
+I build and evaluate AI systems for enterprise workflows, with hands-on experience across document intelligence, retrieval-augmented generation, agentic systems, evaluation and backend engineering.
 
----
-
-**2 enterprise AI systems in production** · **7-agent orchestration framework** · **6-stage document extraction pipeline** · **400+ research citations**
+[![Email](https://img.shields.io/badge/Email-Contact-171a2f?style=flat-square&logo=gmail&logoColor=white)](mailto:todkarsant@gmail.com)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Research-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=YLQtVPYAAAAJ)
 
 ---
 
-### Open Source
+## Featured upstream contribution
 
-#### In review
+### AMD ROCm — hipDNN Python Graph lifecycle and plan APIs
 
-| Project | What it is | Fix |
-| :-- | :-- | :-- |
-| <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> **[docling](https://github.com/docling-project/docling)** `★70k` | Document conversion SDK for gen AI | [Outlook .msg files with non-Unicode bodies crashed the email backend](https://github.com/docling-project/docling/pull/5439) |
-| <img src="https://img.shields.io/badge/-Microsoft-5E5E5E?logo=microsoft&logoColor=white" height="24"> **[onnxscript](https://github.com/microsoft/onnxscript)** `★460` | Author ONNX models in Python | [Constant folding missed optimized reference ops](https://github.com/microsoft/onnxscript/pull/3162) · [Missing op test for torch.unique_consecutive](https://github.com/microsoft/onnxscript/pull/3160) |
-| <img src="https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white" height="24"> **[AgentLab](https://github.com/ServiceNow/AgentLab)** `★668` | Web agent benchmarking framework | [No carbon/energy tracking for LLM calls](https://github.com/ServiceNow/AgentLab/pull/343) |
-| <img src="https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white" height="24"> **[ou-generativeai-pro](https://github.com/oracle-university-labs/ou-generativeai-pro)** `★187` | Oracle University GenAI labs | [Runtime-breaking bugs across agentic AI lab modules](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) |
-| <img src="https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white" height="24"> **[garak](https://github.com/NVIDIA/garak)** `★10k` | LLM vulnerability scanner | [Homoglyph detector needed migration to ModernBERTRefusal](https://github.com/NVIDIA/garak/pull/2424) |
-| <img src="https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white" height="24"> **[rocm-libraries](https://github.com/ROCm/rocm-libraries)** `★470` | AMD ROCm GPU libraries | [hipDNN Python bindings lacked Graph lifecycle and plan APIs](https://github.com/ROCm/rocm-libraries/pull/15453) |
+**[PR #15453: feat(hipdnn/python): expose Graph lifecycle and plan APIs](https://github.com/ROCm/rocm-libraries/pull/15453)**
+
+<sub>Maintainer-approved · PR status checked 17 November 2026</sub>
+
+Contributed nine Python bindings exposing Graph lifecycle, tensor inspection, compiled-plan serialization and SDPA shape-override functionality in hipDNN.
+
+**Engineering areas**
+- Python bindings for an established GPU software stack
+- Graph construction, validation and execution APIs
+- Tensor inspection by UID and name
+- Compiled-plan serialization and deserialization
+- Automated tests for API behaviour and lifecycle operations
+
+[Read the technical case study](case-studies/amd-rocm-hipdnn-python-bindings.md) · [View upstream PR and review discussion](https://github.com/ROCm/rocm-libraries/pull/15453)
+
+> Status note: the PR had maintainer approval but was still shown as open when this profile was updated. The status above intentionally does not claim that it has merged.
 
 ---
+
+## Other upstream contributions
+
+| Project | Contribution |
+| :-- | :-- |
+| **[NVIDIA Garak](https://github.com/NVIDIA/garak)** | [ModernBERTRefusal migration for homoglyph detection](https://github.com/NVIDIA/garak/pull/2424) |
+| **[Microsoft ONNX Script](https://github.com/microsoft/onnxscript)** | [Constant-folding reference-op fix](https://github.com/microsoft/onnxscript/pull/3162) · [Test coverage for torch.unique_consecutive](https://github.com/microsoft/onnxscript/pull/3160) |
+| **[ServiceNow AgentLab](https://github.com/ServiceNow/AgentLab)** | [Carbon and energy tracking for LLM calls](https://github.com/ServiceNow/AgentLab/pull/343) |
+| **[Docling](https://github.com/docling-project/docling)** | [Outlook .msg handling for non-Unicode bodies](https://github.com/docling-project/docling/pull/5439) |
+| **[Oracle Generative AI Labs](https://github.com/oracle-university-labs/ou-generativeai-pro)** | [Runtime fixes across agentic AI lab modules](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) |
+
+*Each link points to the upstream discussion. Check the individual PR for its current review or merge status.*
+
+---
+
+## Selected AI engineering projects
 
 ### Trade Finance Document Intelligence
 
-Banks process thousands of Letters of Credit manually — reading PDFs page by page, copying fields into spreadsheets, cross-checking amendments by hand. I built a 6-stage AI extraction pipeline with a 4-tier routing strategy that reads, extracts, and validates structured data from LC documents in seconds. Human reviewers now verify AI output instead of doing the work themselves.
+Designed a multi-stage document extraction workflow for Letters of Credit, combining PDF processing, section-aware chunking, retrieval and structured field extraction with validation.
 
 [View project](https://github.com/todkarsant/Trade-Finance-Document-Intelligence)
 
-### SWARM — Smart Workflow Agents for Reporting & Metrics
+### Enterprise Analytics Copilot
 
-Business teams waited days for analysts to pull numbers from financial databases. I built a multi-agent conversational system — 7 specialist agents orchestrated by LangGraph — that translates plain English questions into live analytics with charts and tables. Users ask "Show me EBITDA trend for Q3" and get answers in seconds, not days.
+A local-first enterprise analytics copilot focused on translating natural-language questions into controlled SQL workflows, with schema context, planning, SQL validation and read-only execution boundaries.
 
-[View project](https://github.com/todkarsant/Multi-agent-orchestration)
-
-### AI Agent Evidence-to-Action Reliability
-
-AI agents that reason well can still act poorly. I designed a research framework that measures how reliably agents translate evidence into correct actions — quantifying the gap between "understanding" and "doing" that most evaluations miss.
-
-[View project](https://github.com/todkarsant/AI-Agent-Evidence-to-Action-Reliability)
+[View project](https://github.com/todkarsant/Enterprise-Analytics-Copilot)
 
 ### LLM Evaluation and Observability Platform
 
-Model upgrades, prompt changes, and retrieval tweaks silently degrade quality. I built a reproducible evaluation platform that detects regressions across model versions, prompt variants, and retrieval strategies — catching quality drift before it reaches users.
+A reproducible evaluation platform for assessing RAG and agent systems across quality, latency, token usage, cost and regression behaviour.
 
 [View project](https://github.com/todkarsant/LLM-Evaluation-Observability-Platform)
 
+### AI Agent Evidence-to-Action Reliability
+
+A research framework investigating whether agents that interpret evidence correctly also select and execute appropriate actions. The repository documents the research protocol, validation gates and limitations.
+
+[View project](https://github.com/todkarsant/AI-Agent-Evidence-to-Action-Reliability)
+
+### SWARM — Multi-agent analytics
+
+A multi-agent financial analytics system using specialist agents and LangGraph orchestration to translate natural-language questions into analytical workflows.
+
+[Project repository](https://github.com/todkarsant/Multi-agent-orchestration)
+
 ---
 
-### How I work
+## Engineering interests
 
-I take messy, manual enterprise processes and turn them into deployed AI systems. I own the full cycle — from understanding the business problem, to designing the agent architecture, to shipping production code, to sitting with users and watching what breaks. I don't hand off prototypes. I deploy and iterate until it works.
+- Applied AI and enterprise AI systems
+- RAG, retrieval quality, reranking and evaluation
+- Agent orchestration, reliability and observability
+- Python APIs, backend systems and asynchronous processing
+- GPU software ecosystems and developer tooling
 
----
+**Core stack:** Python · SQL · FastAPI · Docker · LangGraph · Azure OpenAI · Redis · DuckDB · Azure
 
-Python · Docker · FastAPI · SQL · LangGraph · Azure OpenAI · DuckDB · Redis · Azure
-
-**Currently:** Researching evidence-to-action reliability in AI agents — measuring whether agents that reason correctly also act correctly.
-
----
-
-Bangalore, India
+**Current focus:** Building reliable AI systems and contributing to the open-source infrastructure around them.
