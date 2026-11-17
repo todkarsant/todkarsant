@@ -11,38 +11,49 @@ I build and evaluate AI systems for enterprise workflows, with hands-on experien
 
 ## Featured upstream contribution
 
-### AMD ROCm — hipDNN Python Graph lifecycle and plan APIs
+<a href="https://github.com/ROCm/rocm-libraries/pull/15453">
+  <img src="https://github.com/ROCm.png?size=128" width="88" height="88" alt="AMD ROCm logo" />
+</a>
 
-**[PR #15453: feat(hipdnn/python): expose Graph lifecycle and plan APIs](https://github.com/ROCm/rocm-libraries/pull/15453)**
+### hipDNN Python Graph lifecycle and plan APIs
 
-<sub>Maintainer-approved · PR status checked 17 November 2026</sub>
+**[PR #15453](https://github.com/ROCm/rocm-libraries/pull/15453)** · Maintainer approved · Open when last checked
 
 Contributed nine Python bindings exposing Graph lifecycle, tensor inspection, compiled-plan serialization and SDPA shape-override functionality in hipDNN.
 
-**Engineering areas**
-- Python bindings for an established GPU software stack
-- Graph construction, validation and execution APIs
-- Tensor inspection by UID and name
-- Compiled-plan serialization and deserialization
-- Automated tests for API behaviour and lifecycle operations
+[Read the technical case study](case-studies/amd-rocm-hipdnn-python-bindings.md)
 
-[Read the technical case study](case-studies/amd-rocm-hipdnn-python-bindings.md) · [View upstream PR and review discussion](https://github.com/ROCm/rocm-libraries/pull/15453)
-
-> Status note: the PR had maintainer approval but was still shown as open when this profile was updated. The status above intentionally does not claim that it has merged.
+**Review note:** The maintainer posted “LGTM! Thanks for all the updates!” on 17 November 2026. GitHub still reported the PR as open when checked on 18 November 2026; it is not labelled as merged here.
 
 ---
 
-## Other upstream contributions
+## Open-source contribution portfolio
 
-| Project | Contribution |
-| :-- | :-- |
-| **[NVIDIA Garak](https://github.com/NVIDIA/garak)** | [ModernBERTRefusal migration for homoglyph detection](https://github.com/NVIDIA/garak/pull/2424) |
-| **[Microsoft ONNX Script](https://github.com/microsoft/onnxscript)** | [Constant-folding reference-op fix](https://github.com/microsoft/onnxscript/pull/3162) · [Test coverage for torch.unique_consecutive](https://github.com/microsoft/onnxscript/pull/3160) |
-| **[ServiceNow AgentLab](https://github.com/ServiceNow/AgentLab)** | [Carbon and energy tracking for LLM calls](https://github.com/ServiceNow/AgentLab/pull/343) |
-| **[Docling](https://github.com/docling-project/docling)** | [Outlook .msg handling for non-Unicode bodies](https://github.com/docling-project/docling/pull/5439) |
-| **[Oracle Generative AI Labs](https://github.com/oracle-university-labs/ou-generativeai-pro)** | [Runtime fixes across agentic AI lab modules](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) |
+<a href="open-source-contributions.md">
+  <img src="https://github.com/ROCm.png?size=128" width="64" height="64" alt="AMD ROCm" />
+</a>
+&nbsp;&nbsp;
+<a href="open-source-contributions.md">
+  <img src="https://github.com/NVIDIA.png?size=128" width="64" height="64" alt="NVIDIA" />
+</a>
+&nbsp;&nbsp;
+<a href="open-source-contributions.md">
+  <img src="https://github.com/microsoft.png?size=128" width="64" height="64" alt="Microsoft" />
+</a>
+&nbsp;&nbsp;
+<a href="open-source-contributions.md">
+  <img src="https://github.com/ServiceNow.png?size=128" width="64" height="64" alt="ServiceNow" />
+</a>
+&nbsp;&nbsp;
+<a href="open-source-contributions.md">
+  <img src="https://github.com/docling-project.png?size=128" width="64" height="64" alt="Docling" />
+</a>
+&nbsp;&nbsp;
+<a href="open-source-contributions.md">
+  <img src="https://github.com/oracle.png?size=128" width="64" height="64" alt="Oracle" />
+</a>
 
-*Each link points to the upstream discussion. Check the individual PR for its current review or merge status.*
+[View all upstream contributions, PR links and technical areas](open-source-contributions.md)
 
 ---
 
