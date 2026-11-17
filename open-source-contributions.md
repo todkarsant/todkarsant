@@ -77,7 +77,7 @@ A visual index of my upstream engineering work across AI infrastructure, develop
 
 **Review evidence:** The maintainer posted “LGTM! Thanks for all the updates!” on 17 November 2026. GitHub still reported the PR as open when checked on 18 November 2026, so this page does not label it as merged.
 
-[Read the detailed AMD ROCm case study](amd-rocm-hipdnn-python-bindings.md)
+[Read the detailed AMD ROCm case study](case-studies/amd-rocm-hipdnn-python-bindings.md)
 
 ---
 
