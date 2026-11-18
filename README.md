@@ -25,7 +25,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 
 ---
 
-## Open source
+## Open source contribution
 
 ### Approved
 
