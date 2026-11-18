@@ -8,7 +8,6 @@
 
 <a href="https://www.linkedin.com/in/santosh-sadashiv-todkar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:todkarsant@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="tel:+917744004068"><img src="https://img.shields.io/badge/%2B91_77440_04068-128C7E?style=for-the-badge&logo=phone&logoColor=white" alt="Phone" /></a>
 <a href="https://scholar.google.com/citations?hl=en&user=YLQtVPYAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-400+_Citations-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
 <img src="https://img.shields.io/badge/Bangalore,_India-34A853?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Bangalore, India" />
 
@@ -39,7 +38,6 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | Project | What it is | Fix |
 | :-- | :-- | :-- |
 | <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> **[docling](https://github.com/docling-project/docling)** `★70k` | Document conversion SDK for gen AI | [Outlook .msg files with non-Unicode bodies crashed the email backend](https://github.com/docling-project/docling/pull/5439) |
-| <img src="https://img.shields.io/badge/-Microsoft-5E5E5E?logo=microsoft&logoColor=white" height="24"> **[onnxscript](https://github.com/microsoft/onnxscript)** `★460` | Author ONNX models in Python | [Constant folding missed optimized reference ops](https://github.com/microsoft/onnxscript/pull/3162) · [Missing op test for torch.unique_consecutive](https://github.com/microsoft/onnxscript/pull/3160) |
 | <img src="https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white" height="24"> **[AgentLab](https://github.com/ServiceNow/AgentLab)** `★668` | Web agent benchmarking framework | [No carbon/energy tracking for LLM calls](https://github.com/ServiceNow/AgentLab/pull/343) |
 | <img src="https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white" height="24"> **[ou-generativeai-pro](https://github.com/oracle-university-labs/ou-generativeai-pro)** `★187` | Oracle University GenAI labs | [Runtime-breaking bugs across agentic AI lab modules](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) |
 | <img src="https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white" height="24"> **[garak](https://github.com/NVIDIA/garak)** `★10k` | LLM vulnerability scanner | [Homoglyph detector needed migration to ModernBERTRefusal](https://github.com/NVIDIA/garak/pull/2424) |
@@ -87,19 +85,3 @@ A reproducible evaluation platform that detects regressions across model version
 
 </div>
 
----
-
-## Credentials
-
-- **400+ research citations** on [Google Scholar](https://scholar.google.com/citations?hl=en&user=YLQtVPYAAAAJ)
-- **2 enterprise AI systems** in production — document intelligence and multi-agent analytics
-- **7 open-source PRs** across NVIDIA, Microsoft, AMD, Docling, ServiceNow, Oracle
-
----
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/santosh-sadashiv-todkar/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
-<a href="mailto:todkarsant@gmail.com"><img src="https://img.shields.io/badge/Say_hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Say hello by email" /></a>
-
-</div>
