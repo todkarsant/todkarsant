@@ -8,6 +8,7 @@
 
 <a href="https://www.linkedin.com/in/santosh-sadashiv-todkar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:todkarsant@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="tel:+917744004068"><img src="https://img.shields.io/badge/%2B91_77440_04068-128C7E?style=for-the-badge&logo=phone&logoColor=white" alt="Phone" /></a>
 <a href="https://scholar.google.com/citations?hl=en&user=YLQtVPYAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-400+_Citations-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
 <img src="https://img.shields.io/badge/Bangalore,_India-34A853?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Bangalore, India" />
 
