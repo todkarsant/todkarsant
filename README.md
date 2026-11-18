@@ -1,122 +1,104 @@
-# Santosh Todkar
+<div align="center">
 
-**Applied AI Engineer | Enterprise AI Systems | Python API Engineering | Open-source AI Infrastructure**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3200&pause=900&color=6E7BF2&center=true&vCenter=true&width=760&lines=AI+Engineer+%E2%80%A2+Multi-Agent+Systems;Document+Intelligence+%C2%B7+LLM+Evaluation+%C2%B7+RAG;From+research+to+production+%E2%80%94+I+ship+the+hard+parts" alt="AI Engineer, multi-agent systems, document intelligence, LLM evaluation, RAG" />
 
-I build and evaluate AI systems for enterprise workflows, with hands-on experience across document intelligence, retrieval-augmented generation, agentic systems, evaluation and backend engineering.
+### Dr. Santosh Todkar
 
-[![Email](https://img.shields.io/badge/Email-Contact-171a2f?style=flat-square&logo=gmail&logoColor=white)](mailto:todkarsant@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/santosh-sadashiv-todkar)
-[![Phone](https://img.shields.io/badge/Phone-%2B91%2077440%2004068-128C7E?style=flat-square&logo=phone&logoColor=white)](tel:+917744004068)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Research-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=YLQtVPYAAAAJ)
+**I build AI systems that replace manual enterprise workflows — from document intelligence to conversational analytics.**
 
----
+<a href="https://www.linkedin.com/in/santosh-sadashiv-todkar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:todkarsant@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://scholar.google.com/citations?hl=en&user=YLQtVPYAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-400+_Citations-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
+<img src="https://img.shields.io/badge/Bangalore,_India-34A853?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Bangalore, India" />
 
-## Featured upstream contribution
-
-<a href="https://github.com/ROCm/rocm-libraries/pull/15453">
-  <img src="https://github.com/ROCm.png?size=128" width="88" height="88" alt="AMD ROCm logo" />
-</a>
-
-### hipDNN Python Graph lifecycle and plan APIs
-
-**[PR #15453](https://github.com/ROCm/rocm-libraries/pull/15453)** · Maintainer approved · Open when last checked
-
-Contributed nine Python bindings exposing Graph lifecycle, tensor inspection, compiled-plan serialization and SDPA shape-override functionality in hipDNN.
-
-[Read the technical case study](case-studies/amd-rocm-hipdnn-python-bindings.md)
-
-**Review note:** The maintainer posted “LGTM! Thanks for all the updates!” on 17 November 2026. GitHub still reported the PR as open when checked on 18 November 2026; it is not labelled as merged here.
+</div>
 
 ---
 
-## Open-source contribution portfolio
+## About
 
-<a href="open-source-contributions.md">
-  <img src="https://github.com/ROCm.png?size=128" width="64" height="64" alt="AMD ROCm" />
-</a>
-&nbsp;&nbsp;
-<a href="open-source-contributions.md">
-  <img src="https://github.com/NVIDIA.png?size=128" width="64" height="64" alt="NVIDIA" />
-</a>
-&nbsp;&nbsp;
-<a href="open-source-contributions.md">
-  <img src="https://github.com/microsoft.png?size=128" width="64" height="64" alt="Microsoft" />
-</a>
-&nbsp;&nbsp;
-<a href="open-source-contributions.md">
-  <img src="https://github.com/ServiceNow.png?size=128" width="64" height="64" alt="ServiceNow" />
-</a>
-&nbsp;&nbsp;
-<a href="open-source-contributions.md">
-  <img src="https://github.com/docling-project.png?size=128" width="64" height="64" alt="Docling" />
-</a>
-&nbsp;&nbsp;
-<a href="open-source-contributions.md">
-  <img src="https://github.com/oracle.png?size=128" width="64" height="64" alt="Oracle" />
-</a>
+AI Engineer in Bangalore, shipping production agentic AI end to end: multi-agent orchestration, document intelligence pipelines, LLM evaluation platforms, and enterprise RAG — with observability and guardrails built in from day one.
 
-[View all upstream contributions, PR links and technical areas](open-source-contributions.md)
+**2 enterprise AI systems in production** · **7-agent orchestration framework** · **6-stage document extraction pipeline** · **400+ research citations**
+
+Currently researching **[evidence-to-action reliability in AI agents](https://github.com/todkarsant/AI-Agent-Evidence-to-Action-Reliability)** — measuring whether agents that reason correctly also act correctly.
 
 ---
 
-## Hiring review — start here
+## Open source
 
-If you are reviewing my profile for an Applied AI, AI Platform, or AI Backend Engineering role, this is the recommended evidence path:
+### Approved
 
-1. **Open-source engineering:** review the [AMD ROCm hipDNN contribution](https://github.com/ROCm/rocm-libraries/pull/15453) and [contribution portfolio](open-source-contributions.md).
-2. **System design and backend engineering:** inspect the [Enterprise Analytics Copilot](https://github.com/todkarsant/Enterprise-Analytics-Copilot), especially its architecture, SQL guard, tests and evaluation workflow.
-3. **LLM quality engineering:** inspect the [LLM Evaluation & Observability Platform](https://github.com/todkarsant/LLM-Evaluation-Observability-Platform), including adapters, regression evaluation and release gates.
-4. **Document intelligence:** inspect the [Trade Finance Document Intelligence project](https://github.com/todkarsant/Trade-Finance-Document-Intelligence) for document ingestion, extraction, verification and human review design.
-5. **Research depth:** review the [AI Agent Evidence-to-Action Reliability research repository](https://github.com/todkarsant/AI-Agent-Evidence-to-Action-Reliability), where research status and limitations are stated explicitly.
+| Project | What it is | Fix |
+| :-- | :-- | :-- |
+| <img src="https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white" height="24"> **[rocm-libraries](https://github.com/ROCm/rocm-libraries)** `★470` | AMD ROCm GPU libraries | [hipDNN Python bindings lacked Graph lifecycle and plan APIs](https://github.com/ROCm/rocm-libraries/pull/15453) |
 
-[Open the visual project portfolio and technical review guide](project-portfolio.md)
+### In review
 
-## Selected AI engineering projects
+| Project | What it is | Fix |
+| :-- | :-- | :-- |
+| <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> **[docling](https://github.com/docling-project/docling)** `★70k` | Document conversion SDK for gen AI | [Outlook .msg files with non-Unicode bodies crashed the email backend](https://github.com/docling-project/docling/pull/5439) |
+| <img src="https://img.shields.io/badge/-Microsoft-5E5E5E?logo=microsoft&logoColor=white" height="24"> **[onnxscript](https://github.com/microsoft/onnxscript)** `★460` | Author ONNX models in Python | [Constant folding missed optimized reference ops](https://github.com/microsoft/onnxscript/pull/3162) · [Missing op test for torch.unique_consecutive](https://github.com/microsoft/onnxscript/pull/3160) |
+| <img src="https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white" height="24"> **[AgentLab](https://github.com/ServiceNow/AgentLab)** `★668` | Web agent benchmarking framework | [No carbon/energy tracking for LLM calls](https://github.com/ServiceNow/AgentLab/pull/343) |
+| <img src="https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white" height="24"> **[ou-generativeai-pro](https://github.com/oracle-university-labs/ou-generativeai-pro)** `★187` | Oracle University GenAI labs | [Runtime-breaking bugs across agentic AI lab modules](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) |
+| <img src="https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white" height="24"> **[garak](https://github.com/NVIDIA/garak)** `★10k` | LLM vulnerability scanner | [Homoglyph detector needed migration to ModernBERTRefusal](https://github.com/NVIDIA/garak/pull/2424) |
+
+---
+
+## Projects
 
 ### Trade Finance Document Intelligence
 
-Designed a multi-stage document extraction workflow for Letters of Credit, combining PDF processing, section-aware chunking, retrieval and structured field extraction with validation.
+Designed a multi-stage document extraction workflow for Letters of Credit, combining PDF processing, section-aware chunking, retrieval and structured field extraction with validation. Human reviewers now verify AI output instead of doing the work themselves.
 
 [View project](https://github.com/todkarsant/Trade-Finance-Document-Intelligence)
 
-### Enterprise Analytics Copilot
+### SWARM — Smart Workflow Agents for Reporting & Metrics
 
-A local-first enterprise analytics copilot focused on translating natural-language questions into controlled SQL workflows, with schema context, planning, SQL validation and read-only execution boundaries.
+A multi-agent conversational system — 7 specialist agents orchestrated by LangGraph — that translates plain English questions into live analytics with charts and tables. Users ask "Show me EBITDA trend for Q3" and get answers in seconds, not days.
 
-[View project](https://github.com/todkarsant/Enterprise-Analytics-Copilot)
-
-### LLM Evaluation and Observability Platform
-
-A reproducible evaluation platform for assessing RAG and agent systems across quality, latency, token usage, cost and regression behaviour.
-
-[View project](https://github.com/todkarsant/LLM-Evaluation-Observability-Platform)
+[View project](https://github.com/todkarsant/Multi-agent-orchestration)
 
 ### AI Agent Evidence-to-Action Reliability
 
-A research framework investigating whether agents that interpret evidence correctly also select and execute appropriate actions. The repository documents the research protocol, validation gates and limitations.
+A research framework investigating whether agents that interpret evidence correctly also select and execute appropriate actions. Quantifies the gap between "understanding" and "doing" that most evaluations miss.
 
 [View project](https://github.com/todkarsant/AI-Agent-Evidence-to-Action-Reliability)
 
-### SWARM — Multi-agent analytics
+### LLM Evaluation and Observability Platform
 
-A multi-agent financial analytics system using specialist agents and LangGraph orchestration to translate natural-language questions into analytical workflows.
+A reproducible evaluation platform that detects regressions across model versions, prompt variants, and retrieval strategies — catching quality drift before it reaches users.
 
-[Project repository](https://github.com/todkarsant/Multi-agent-orchestration)
+[View project](https://github.com/todkarsant/LLM-Evaluation-Observability-Platform)
 
 ---
 
-## Contact
+## Toolkit
 
-For interview opportunities and technical discussions, use any of the verified channels at the top of this profile: email, LinkedIn, or phone.
+<div align="center">
 
-## Engineering interests
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
+<img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure OpenAI" />
+<img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol" />
+<img src="https://img.shields.io/badge/RAG_%2F_Vector_DBs-0EA5E9?style=for-the-badge&logo=databricks&logoColor=white" alt="RAG and Vector Databases" />
 
-- Applied AI and enterprise AI systems
-- RAG, retrieval quality, reranking and evaluation
-- Agent orchestration, reliability and observability
-- Python APIs, backend systems and asynchronous processing
-- GPU software ecosystems and developer tooling
+<img src="https://skillicons.dev/icons?i=python,fastapi,docker,postgres,redis,azure,git&perline=10" alt="Python, FastAPI, Docker, PostgreSQL, Redis, Azure, Git" />
 
-**Core stack:** Python · SQL · FastAPI · Docker · LangGraph · Azure OpenAI · Redis · DuckDB · Azure
+</div>
 
-**Current focus:** Building reliable AI systems and contributing to the open-source infrastructure around them.
+---
+
+## Credentials
+
+- **400+ research citations** on [Google Scholar](https://scholar.google.com/citations?hl=en&user=YLQtVPYAAAAJ)
+- **2 enterprise AI systems** in production — document intelligence and multi-agent analytics
+- **7 open-source PRs** across NVIDIA, Microsoft, AMD, Docling, ServiceNow, Oracle
+
+---
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/santosh-sadashiv-todkar/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+<a href="mailto:todkarsant@gmail.com"><img src="https://img.shields.io/badge/Say_hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Say hello by email" /></a>
+
+</div>
