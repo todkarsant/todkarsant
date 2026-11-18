@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3200&pause=900&color=6E7BF2&center=true&vCenter=true&width=760&lines=AI+Engineer+%E2%80%A2+Multi-Agent+Systems;Document+Intelligence+%C2%B7+LLM+Evaluation+%C2%B7+RAG;From+research+to+production+%E2%80%94+I+ship+the+hard+parts" alt="AI Engineer, multi-agent systems, document intelligence, LLM evaluation, RAG" />
 
-### Dr. Santosh Todkar
+## Dr. Santosh Todkar
 
 **I build AI systems that replace manual enterprise workflows — from document intelligence to conversational analytics.**
 
