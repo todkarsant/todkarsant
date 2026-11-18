@@ -5,6 +5,8 @@
 I build and evaluate AI systems for enterprise workflows, with hands-on experience across document intelligence, retrieval-augmented generation, agentic systems, evaluation and backend engineering.
 
 [![Email](https://img.shields.io/badge/Email-Contact-171a2f?style=flat-square&logo=gmail&logoColor=white)](mailto:todkarsant@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/santosh-sadashiv-todkar)
+[![Phone](https://img.shields.io/badge/Phone-%2B91%2077440%2004068-128C7E?style=flat-square&logo=phone&logoColor=white)](tel:+917744004068)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Research-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=YLQtVPYAAAAJ)
 
 ---
@@ -57,6 +59,18 @@ Contributed nine Python bindings exposing Graph lifecycle, tensor inspection, co
 
 ---
 
+## Hiring review — start here
+
+If you are reviewing my profile for an Applied AI, AI Platform, or AI Backend Engineering role, this is the recommended evidence path:
+
+1. **Open-source engineering:** review the [AMD ROCm hipDNN contribution](https://github.com/ROCm/rocm-libraries/pull/15453) and [contribution portfolio](open-source-contributions.md).
+2. **System design and backend engineering:** inspect the [Enterprise Analytics Copilot](https://github.com/todkarsant/Enterprise-Analytics-Copilot), especially its architecture, SQL guard, tests and evaluation workflow.
+3. **LLM quality engineering:** inspect the [LLM Evaluation & Observability Platform](https://github.com/todkarsant/LLM-Evaluation-Observability-Platform), including adapters, regression evaluation and release gates.
+4. **Document intelligence:** inspect the [Trade Finance Document Intelligence project](https://github.com/todkarsant/Trade-Finance-Document-Intelligence) for document ingestion, extraction, verification and human review design.
+5. **Research depth:** review the [AI Agent Evidence-to-Action Reliability research repository](https://github.com/todkarsant/AI-Agent-Evidence-to-Action-Reliability), where research status and limitations are stated explicitly.
+
+[Open the visual project portfolio and technical review guide](project-portfolio.md)
+
 ## Selected AI engineering projects
 
 ### Trade Finance Document Intelligence
@@ -90,6 +104,10 @@ A multi-agent financial analytics system using specialist agents and LangGraph o
 [Project repository](https://github.com/todkarsant/Multi-agent-orchestration)
 
 ---
+
+## Contact
+
+For interview opportunities and technical discussions, use any of the verified channels at the top of this profile: email, LinkedIn, or phone.
 
 ## Engineering interests
 
