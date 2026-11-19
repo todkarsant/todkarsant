@@ -44,6 +44,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white" height="24"> **[AgentLab](https://github.com/ServiceNow/AgentLab)** `★668` | Web agent benchmarking framework | [No carbon/energy tracking for LLM calls](https://github.com/ServiceNow/AgentLab/pull/343) |
 | <img src="https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white" height="24"> **[ou-generativeai-pro](https://github.com/oracle-university-labs/ou-generativeai-pro)** `★187` | Oracle University GenAI labs | [Runtime-breaking bugs across agentic AI lab modules](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) |
 | <img src="https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white" height="24"> **[garak](https://github.com/NVIDIA/garak)** `★10k` | LLM vulnerability scanner | [Homoglyph detector needed migration to ModernBERTRefusal](https://github.com/NVIDIA/garak/pull/2424) |
+| <img src="https://img.shields.io/badge/-OpenLIT-4B0082?logo=python&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | AI observability and cost optimization | [Qdrant instrumentation dropped span attributes for positional args](https://github.com/openlit/openlit/pull/1968) |
 
 ---
 
