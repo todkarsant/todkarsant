@@ -51,18 +51,6 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 
 ## Projects
 
-### Trade Finance Document Intelligence
-
-Designed a multi-stage document extraction workflow for Letters of Credit, combining PDF processing, section-aware chunking, retrieval and structured field extraction with validation. Human reviewers now verify AI output instead of doing the work themselves.
-
-[View project](https://github.com/todkarsant/Trade-Finance-Document-Intelligence)
-
-### SWARM — Smart Workflow Agents for Reporting & Metrics
-
-A multi-agent conversational system — 7 specialist agents orchestrated by LangGraph — that translates plain English questions into live analytics with charts and tables. Users ask "Show me EBITDA trend for Q3" and get answers in seconds, not days.
-
-[View project](https://github.com/todkarsant/Multi-agent-orchestration)
-
 ### AI Agent Evidence-to-Action Reliability
 
 A research framework investigating whether agents that interpret evidence correctly also select and execute appropriate actions. Quantifies the gap between "understanding" and "doing" that most evaluations miss.
@@ -74,6 +62,18 @@ A research framework investigating whether agents that interpret evidence correc
 A reproducible evaluation platform that detects regressions across model versions, prompt variants, and retrieval strategies — catching quality drift before it reaches users.
 
 [View project](https://github.com/todkarsant/LLM-Evaluation-Observability-Platform)
+
+### Trade Finance Document Intelligence
+
+Designed a multi-stage document extraction workflow for Letters of Credit, combining PDF processing, section-aware chunking, retrieval and structured field extraction with validation. Human reviewers now verify AI output instead of doing the work themselves.
+
+[View project](https://github.com/todkarsant/Trade-Finance-Document-Intelligence)
+
+### SWARM — Smart Workflow Agents for Reporting & Metrics
+
+A multi-agent conversational system — 7 specialist agents orchestrated by LangGraph — that translates plain English questions into live analytics with charts and tables. Users ask "Show me EBITDA trend for Q3" and get answers in seconds, not days.
+
+[View project](https://github.com/todkarsant/Multi-agent-orchestration)
 
 ---
 
