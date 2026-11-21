@@ -29,30 +29,44 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 
 <!-- AUTO:OSS:START -->
 
-### Approved
+*Production bugs in AI infrastructure — LLM gateways, observability pipelines, model serving, and GPU compute — across codebases I ramp on in days, not weeks.*
 
-| Project | What it is | Fix |
-| :-- | :-- | :-- |
-| <img src="https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white" height="24"> **[rocm-libraries](https://github.com/ROCm/rocm-libraries)** `★470` | AMD ROCm GPU libraries | [hipDNN Python bindings lacked Graph lifecycle and plan APIs](https://github.com/ROCm/rocm-libraries/pull/15453) |
-| <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> **[docling](https://github.com/docling-project/docling)** `★70k` | Document conversion SDK for gen AI | [Outlook .msg files with non-Unicode bodies crashed the email backend](https://github.com/docling-project/docling/pull/5439) |
+**15 contributions** across **9 repos** · **2 approved**
 
-### In review
+#### LLM Gateway & Runtime
 
-| Project | What it is | Fix |
-| :-- | :-- | :-- |
-| <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | AI gateway for 100+ LLM APIs | [Bedrock Nova Canvas missing-image error surfaced as retryable 500 instead of 400](https://github.com/BerriAI/litellm/pull/52542) |
-| <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | AI gateway for 100+ LLM APIs | [File endpoints raised ValueError (500) for unsupported providers instead of BadRequestError (400)](https://github.com/BerriAI/litellm/pull/52850) |
-| <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | AI gateway for 100+ LLM APIs | [duration_parser regex accepted invalid suffixes](https://github.com/BerriAI/litellm/pull/52851) |
-| <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | AI gateway for 100+ LLM APIs | [list_batches error handler had wrong HTTP method and operation name](https://github.com/BerriAI/litellm/pull/53337) |
-| <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | AI observability and cost optimization | [Qdrant instrumentation double-passed positional args](https://github.com/openlit/openlit/pull/1968) |
-| <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | AI observability and cost optimization | [CLI --no_capture_message_content flag was unregistered](https://github.com/openlit/openlit/pull/1969) |
-| <img src="https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white" height="24"> **[AgentLab](https://github.com/ServiceNow/AgentLab)** `★668` | Web agent benchmarking framework | [No carbon/energy tracking for LLM calls](https://github.com/ServiceNow/AgentLab/pull/343) |
-| <img src="https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white" height="24"> **[ou-generativeai-pro](https://github.com/oracle-university-labs/ou-generativeai-pro)** `★187` | Oracle University GenAI labs | [Runtime-breaking bugs across agentic AI lab modules](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) |
-| <img src="https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white" height="24"> **[garak](https://github.com/NVIDIA/garak)** `★10k` | LLM vulnerability scanner | [Homoglyph detector needed migration to ModernBERTRefusal](https://github.com/NVIDIA/garak/pull/2424) |
-| <img src="https://img.shields.io/badge/-Apple-000000?logo=apple&logoColor=white" height="24"> **[coreai-models](https://github.com/apple/coreai-models)** `★2.4k` | On-device AI model recipes | [Gemma 4 README missing memory requirements per model](https://github.com/apple/coreai-models/pull/561) |
-| <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | AI observability and cost optimization | [Image cost not multiplied by n when generating multiple images](https://github.com/openlit/openlit/pull/1974) |
-| <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | AI observability and cost optimization | [google-genai finish reason leaked enum repr into spans](https://github.com/openlit/openlit/pull/1975) |
-| <img src="https://img.shields.io/badge/-Microsoft-0078D4?logo=microsoft&logoColor=white" height="24"> **[semantic-kernel](https://github.com/microsoft/semantic-kernel)** `★28.8k` | LLM app framework — plugins, planners, memory | [Ollama connector dropped plugin name from tool calls](https://github.com/microsoft/semantic-kernel/pull/14836) |
+| Project | Fix | Type | Status |
+| :-- | :-- | :--: | :--: |
+| <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | [Bedrock Nova Canvas missing-image error surfaced as retryable 500 instead of 400](https://github.com/BerriAI/litellm/pull/52542) | `error propagation` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+| <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | [File endpoints raised ValueError (500) for unsupported providers instead of BadRequestError (400)](https://github.com/BerriAI/litellm/pull/52850) | `error propagation` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+| <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | [duration_parser regex accepted invalid suffixes, breaking stored budgets](https://github.com/BerriAI/litellm/pull/52851) | `backward compat` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+| <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | [list_batches error handler had wrong HTTP method and operation name](https://github.com/BerriAI/litellm/pull/53337) | `error handler` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+| <img src="https://img.shields.io/badge/-Microsoft-0078D4?logo=microsoft&logoColor=white" height="24"> **[semantic-kernel](https://github.com/microsoft/semantic-kernel)** `★28.8k` | [Ollama connector dropped plugin name from assistant tool calls](https://github.com/microsoft/semantic-kernel/pull/14836) | `data integrity` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+
+#### AI Observability & Cost
+
+| Project | Fix | Type | Status |
+| :-- | :-- | :--: | :--: |
+| <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | [Qdrant instrumentation double-passed positional args, crashing traced calls](https://github.com/openlit/openlit/pull/1968) | `telemetry` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+| <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | [CLI --no_capture_message_content flag was unregistered in argparse](https://github.com/openlit/openlit/pull/1969) | `CLI` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+| <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | [Image cost not multiplied by n when generating multiple images](https://github.com/openlit/openlit/pull/1974) | `cost accuracy` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+| <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | [google-genai finish reason leaked enum repr into telemetry spans](https://github.com/openlit/openlit/pull/1975) | `data integrity` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+
+#### Model Serving & Document Intelligence
+
+| Project | Fix | Type | Status |
+| :-- | :-- | :--: | :--: |
+| <img src="https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white" height="24"> **[rocm-libraries](https://github.com/ROCm/rocm-libraries)** `★470` | [hipDNN Python bindings lacked Graph lifecycle and plan APIs](https://github.com/ROCm/rocm-libraries/pull/15453) | `API bindings` | ![approved](https://img.shields.io/badge/approved-0969da?style=flat-square) |
+| <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> **[docling](https://github.com/docling-project/docling)** `★70k` | [Outlook .msg files with non-Unicode bodies crashed the email backend](https://github.com/docling-project/docling/pull/5439) | `crash fix` | ![approved](https://img.shields.io/badge/approved-0969da?style=flat-square) |
+| <img src="https://img.shields.io/badge/-Apple-000000?logo=apple&logoColor=white" height="24"> **[coreai-models](https://github.com/apple/coreai-models)** `★2.4k` | [Gemma 4 support table missing minimum device RAM](https://github.com/apple/coreai-models/pull/561) | `docs` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+
+#### AI Security & Agents
+
+| Project | Fix | Type | Status |
+| :-- | :-- | :--: | :--: |
+| <img src="https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white" height="24"> **[garak](https://github.com/NVIDIA/garak)** `★10k` | [Homoglyph detector missed non-English refusals; migrated to ModernBERTRefusal](https://github.com/NVIDIA/garak/pull/2424) | `detector migration` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+| <img src="https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white" height="24"> **[AgentLab](https://github.com/ServiceNow/AgentLab)** `★668` | [No carbon/energy tracking for LLM calls](https://github.com/ServiceNow/AgentLab/pull/343) | `observability` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+| <img src="https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white" height="24"> **[ou-generativeai-pro](https://github.com/oracle-university-labs/ou-generativeai-pro)** `★187` | [Runtime-breaking bugs across agentic AI lab modules](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) | `crash fix` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
 <!-- AUTO:OSS:END -->
 

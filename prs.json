@@ -1,25 +1,5 @@
 [
   {
-    "owner": "ROCm",
-    "repo": "rocm-libraries",
-    "number": 15453,
-    "badge": "<img src=\"https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white\" height=\"24\">",
-    "display_name": "rocm-libraries",
-    "stars": "\u2605470",
-    "description": "AMD ROCm GPU libraries",
-    "fix": "hipDNN Python bindings lacked Graph lifecycle and plan APIs"
-  },
-  {
-    "owner": "docling-project",
-    "repo": "docling",
-    "number": 5439,
-    "badge": "<img src=\"https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white\" height=\"24\">",
-    "display_name": "docling",
-    "stars": "\u260570k",
-    "description": "Document conversion SDK for gen AI",
-    "fix": "Outlook .msg files with non-Unicode bodies crashed the email backend"
-  },
-  {
     "owner": "BerriAI",
     "repo": "litellm",
     "number": 52542,
@@ -27,7 +7,9 @@
     "display_name": "litellm",
     "stars": "\u260563k",
     "description": "AI gateway for 100+ LLM APIs",
-    "fix": "Bedrock Nova Canvas missing-image error surfaced as retryable 500 instead of 400"
+    "fix": "Bedrock Nova Canvas missing-image error surfaced as retryable 500 instead of 400",
+    "domain": "LLM Gateway & Runtime",
+    "fix_type": "error propagation"
   },
   {
     "owner": "BerriAI",
@@ -37,7 +19,9 @@
     "display_name": "litellm",
     "stars": "\u260563k",
     "description": "AI gateway for 100+ LLM APIs",
-    "fix": "File endpoints raised ValueError (500) for unsupported providers instead of BadRequestError (400)"
+    "fix": "File endpoints raised ValueError (500) for unsupported providers instead of BadRequestError (400)",
+    "domain": "LLM Gateway & Runtime",
+    "fix_type": "error propagation"
   },
   {
     "owner": "BerriAI",
@@ -47,87 +31,21 @@
     "display_name": "litellm",
     "stars": "\u260563k",
     "description": "AI gateway for 100+ LLM APIs",
-    "fix": "duration_parser regex accepted invalid suffixes"
+    "fix": "duration_parser regex accepted invalid suffixes, breaking stored budgets",
+    "domain": "LLM Gateway & Runtime",
+    "fix_type": "backward compat"
   },
   {
-    "owner": "openlit",
-    "repo": "openlit",
-    "number": 1968,
-    "badge": "<img src=\"https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white\" height=\"24\">",
-    "display_name": "openlit",
-    "stars": "\u26053.1k",
-    "description": "AI observability and cost optimization",
-    "fix": "Qdrant instrumentation double-passed positional args"
-  },
-  {
-    "owner": "openlit",
-    "repo": "openlit",
-    "number": 1969,
-    "badge": "<img src=\"https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white\" height=\"24\">",
-    "display_name": "openlit",
-    "stars": "\u26053.1k",
-    "description": "AI observability and cost optimization",
-    "fix": "CLI --no_capture_message_content flag was unregistered"
-  },
-  {
-    "owner": "ServiceNow",
-    "repo": "AgentLab",
-    "number": 343,
-    "badge": "<img src=\"https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white\" height=\"24\">",
-    "display_name": "AgentLab",
-    "stars": "\u2605668",
-    "description": "Web agent benchmarking framework",
-    "fix": "No carbon/energy tracking for LLM calls"
-  },
-  {
-    "owner": "oracle-university-labs",
-    "repo": "ou-generativeai-pro",
-    "number": 14,
-    "badge": "<img src=\"https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white\" height=\"24\">",
-    "display_name": "ou-generativeai-pro",
-    "stars": "\u2605187",
-    "description": "Oracle University GenAI labs",
-    "fix": "Runtime-breaking bugs across agentic AI lab modules"
-  },
-  {
-    "owner": "NVIDIA",
-    "repo": "garak",
-    "number": 2424,
-    "badge": "<img src=\"https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white\" height=\"24\">",
-    "display_name": "garak",
-    "stars": "\u260510k",
-    "description": "LLM vulnerability scanner",
-    "fix": "Homoglyph detector needed migration to ModernBERTRefusal"
-  },
-  {
-    "owner": "apple",
-    "repo": "coreai-models",
-    "number": 561,
-    "badge": "<img src=\"https://img.shields.io/badge/-Apple-000000?logo=apple&logoColor=white\" height=\"24\">",
-    "display_name": "coreai-models",
-    "stars": "\u26052.4k",
-    "description": "On-device AI model recipes",
-    "fix": "Gemma 4 README missing memory requirements per model"
-  },
-  {
-    "owner": "openlit",
-    "repo": "openlit",
-    "number": 1974,
-    "badge": "<img src=\"https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white\" height=\"24\">",
-    "display_name": "openlit",
-    "stars": "\u26053.1k",
-    "description": "AI observability and cost optimization",
-    "fix": "Image cost not multiplied by n when generating multiple images"
-  },
-  {
-    "owner": "openlit",
-    "repo": "openlit",
-    "number": 1975,
-    "badge": "<img src=\"https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white\" height=\"24\">",
-    "display_name": "openlit",
-    "stars": "\u26053.1k",
-    "description": "AI observability and cost optimization",
-    "fix": "google-genai finish reason leaked enum repr into spans"
+    "owner": "BerriAI",
+    "repo": "litellm",
+    "number": 53337,
+    "badge": "<img src=\"https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white\" height=\"24\">",
+    "display_name": "litellm",
+    "stars": "\u260563k",
+    "description": "AI gateway for 100+ LLM APIs",
+    "fix": "list_batches error handler had wrong HTTP method and operation name",
+    "domain": "LLM Gateway & Runtime",
+    "fix_type": "error handler"
   },
   {
     "owner": "microsoft",
@@ -137,6 +55,128 @@
     "display_name": "semantic-kernel",
     "stars": "\u260528.8k",
     "description": "LLM app framework \u2014 plugins, planners, memory",
-    "fix": "Ollama connector dropped plugin name from tool calls"
+    "fix": "Ollama connector dropped plugin name from assistant tool calls",
+    "domain": "LLM Gateway & Runtime",
+    "fix_type": "data integrity"
+  },
+  {
+    "owner": "openlit",
+    "repo": "openlit",
+    "number": 1968,
+    "badge": "<img src=\"https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white\" height=\"24\">",
+    "display_name": "openlit",
+    "stars": "\u26053.1k",
+    "description": "AI observability and cost optimization",
+    "fix": "Qdrant instrumentation double-passed positional args, crashing traced calls",
+    "domain": "AI Observability & Cost",
+    "fix_type": "telemetry"
+  },
+  {
+    "owner": "openlit",
+    "repo": "openlit",
+    "number": 1969,
+    "badge": "<img src=\"https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white\" height=\"24\">",
+    "display_name": "openlit",
+    "stars": "\u26053.1k",
+    "description": "AI observability and cost optimization",
+    "fix": "CLI --no_capture_message_content flag was unregistered in argparse",
+    "domain": "AI Observability & Cost",
+    "fix_type": "CLI"
+  },
+  {
+    "owner": "openlit",
+    "repo": "openlit",
+    "number": 1974,
+    "badge": "<img src=\"https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white\" height=\"24\">",
+    "display_name": "openlit",
+    "stars": "\u26053.1k",
+    "description": "AI observability and cost optimization",
+    "fix": "Image cost not multiplied by n when generating multiple images",
+    "domain": "AI Observability & Cost",
+    "fix_type": "cost accuracy"
+  },
+  {
+    "owner": "openlit",
+    "repo": "openlit",
+    "number": 1975,
+    "badge": "<img src=\"https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white\" height=\"24\">",
+    "display_name": "openlit",
+    "stars": "\u26053.1k",
+    "description": "AI observability and cost optimization",
+    "fix": "google-genai finish reason leaked enum repr into telemetry spans",
+    "domain": "AI Observability & Cost",
+    "fix_type": "data integrity"
+  },
+  {
+    "owner": "ROCm",
+    "repo": "rocm-libraries",
+    "number": 15453,
+    "badge": "<img src=\"https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white\" height=\"24\">",
+    "display_name": "rocm-libraries",
+    "stars": "\u2605470",
+    "description": "AMD ROCm GPU libraries",
+    "fix": "hipDNN Python bindings lacked Graph lifecycle and plan APIs",
+    "domain": "Model Serving & Document Intelligence",
+    "fix_type": "API bindings"
+  },
+  {
+    "owner": "docling-project",
+    "repo": "docling",
+    "number": 5439,
+    "badge": "<img src=\"https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white\" height=\"24\">",
+    "display_name": "docling",
+    "stars": "\u260570k",
+    "description": "Document conversion SDK for gen AI",
+    "fix": "Outlook .msg files with non-Unicode bodies crashed the email backend",
+    "domain": "Model Serving & Document Intelligence",
+    "fix_type": "crash fix"
+  },
+  {
+    "owner": "apple",
+    "repo": "coreai-models",
+    "number": 561,
+    "badge": "<img src=\"https://img.shields.io/badge/-Apple-000000?logo=apple&logoColor=white\" height=\"24\">",
+    "display_name": "coreai-models",
+    "stars": "\u26052.4k",
+    "description": "On-device AI model recipes",
+    "fix": "Gemma 4 support table missing minimum device RAM",
+    "domain": "Model Serving & Document Intelligence",
+    "fix_type": "docs"
+  },
+  {
+    "owner": "NVIDIA",
+    "repo": "garak",
+    "number": 2424,
+    "badge": "<img src=\"https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white\" height=\"24\">",
+    "display_name": "garak",
+    "stars": "\u260510k",
+    "description": "LLM vulnerability scanner",
+    "fix": "Homoglyph detector missed non-English refusals; migrated to ModernBERTRefusal",
+    "domain": "AI Security & Agents",
+    "fix_type": "detector migration"
+  },
+  {
+    "owner": "ServiceNow",
+    "repo": "AgentLab",
+    "number": 343,
+    "badge": "<img src=\"https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white\" height=\"24\">",
+    "display_name": "AgentLab",
+    "stars": "\u2605668",
+    "description": "Web agent benchmarking framework",
+    "fix": "No carbon/energy tracking for LLM calls",
+    "domain": "AI Security & Agents",
+    "fix_type": "observability"
+  },
+  {
+    "owner": "oracle-university-labs",
+    "repo": "ou-generativeai-pro",
+    "number": 14,
+    "badge": "<img src=\"https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white\" height=\"24\">",
+    "display_name": "ou-generativeai-pro",
+    "stars": "\u2605187",
+    "description": "Oracle University GenAI labs",
+    "fix": "Runtime-breaking bugs across agentic AI lab modules",
+    "domain": "AI Security & Agents",
+    "fix_type": "crash fix"
   }
 ]
