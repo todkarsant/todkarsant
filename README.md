@@ -27,6 +27,8 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 
 ## Open source contribution
 
+<!-- AUTO:OSS:START -->
+
 ### Approved
 
 | Project | What it is | Fix |
@@ -50,6 +52,8 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | AI observability and cost optimization | [Image cost not multiplied by n when generating multiple images](https://github.com/openlit/openlit/pull/1974) |
 | <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | AI observability and cost optimization | [google-genai finish reason leaked enum repr into spans](https://github.com/openlit/openlit/pull/1975) |
 | <img src="https://img.shields.io/badge/-Microsoft-0078D4?logo=microsoft&logoColor=white" height="24"> **[semantic-kernel](https://github.com/microsoft/semantic-kernel)** `★28.8k` | LLM app framework — plugins, planners, memory | [Ollama connector dropped plugin name from tool calls](https://github.com/microsoft/semantic-kernel/pull/14836) |
+
+<!-- AUTO:OSS:END -->
 
 ---
 
