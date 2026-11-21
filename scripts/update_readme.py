@@ -41,12 +41,12 @@ STATUS_BADGES = {
     "in_review": "![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square)",
 }
 
-# Minimal colored dot + lowercase heading per domain
-DOMAIN_DOTS = {
-    "LLM Gateway & Runtime": ("FF6B35", "LLM gateway & runtime"),
-    "AI Observability & Cost": ("0969DA", "AI observability & cost"),
-    "Model Serving & Document Intelligence": ("8B5CF6", "Model serving & document intelligence"),
-    "AI Security & Agents": ("16A34A", "AI security & agents"),
+# Lowercase display labels per domain
+DOMAIN_LABELS = {
+    "LLM Gateway & Runtime": "LLM gateway & runtime",
+    "AI Observability & Cost": "AI observability & cost",
+    "Model Serving & Document Intelligence": "Model serving & document intelligence",
+    "AI Security & Agents": "AI security & agents",
 }
 
 
@@ -112,19 +112,27 @@ def build_row(pr, status):
     )
 
 
-def build_domain_section(domain, prs_with_status):
+def domain_priority(prs_with_status):
+    """Lower = higher priority. Domains with merged/approved PRs float to top."""
+    best = 2
+    for _, status in prs_with_status:
+        if status == "merged":
+            return 0
+        if status == "approved":
+            best = min(best, 1)
+    return best
+
+
+def build_domain_section(domain, prs_with_status, total):
     if not prs_with_status:
         return ""
-    # Sort: merged first, then approved, then in_review
+    # Sort rows: merged first, then approved, then in_review
     order = {"merged": 0, "approved": 1, "in_review": 2}
     prs_with_status.sort(key=lambda x: order.get(x[1], 2))
 
-    dot_info = DOMAIN_DOTS.get(domain)
-    if dot_info:
-        color, label = dot_info
-        header = f'<h4><img src="https://img.shields.io/badge/-{color}?style=flat-square" height="12" alt="" /> &nbsp;{label}</h4>'
-    else:
-        header = f"**{domain}**"
+    label = DOMAIN_LABELS.get(domain, domain)
+    count = len(prs_with_status)
+    header = f"<h4>{label} · {count}/{total}</h4>"
     lines = [
         header,
         "",
@@ -166,17 +174,17 @@ def main():
 
     sections = [NARRATIVE, "", stats]
 
-    for domain in DOMAIN_ORDER:
-        s = build_domain_section(domain, domains.get(domain, []))
+    # Sort domains: merged/approved float to top, then by original order
+    sorted_domains = sorted(
+        domains.keys(),
+        key=lambda d: (domain_priority(domains[d]), DOMAIN_ORDER.index(d) if d in DOMAIN_ORDER else 999),
+    )
+
+    for domain in sorted_domains:
+        s = build_domain_section(domain, domains.get(domain, []), total)
         if s:
             sections.append("")
             sections.append(s)
-
-    # Handle any domains not in DOMAIN_ORDER
-    for domain, prs_with_status in domains.items():
-        if domain not in DOMAIN_ORDER and prs_with_status:
-            sections.append("")
-            sections.append(build_domain_section(domain, prs_with_status))
 
     generated = "\n".join(sections)
     content = f"{START_MARKER}\n\n{generated}\n\n{END_MARKER}"
