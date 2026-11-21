@@ -41,20 +41,12 @@ STATUS_BADGES = {
     "in_review": "![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square)",
 }
 
-# Colored domain header badges — distinct colors to signal depth at a glance
-DOMAIN_BADGES = {
-    "LLM Gateway & Runtime": (
-        '<img src="https://img.shields.io/badge/LLM_Gateway_&_Runtime-FF6B35?style=for-the-badge" alt="LLM Gateway & Runtime" />'
-    ),
-    "AI Observability & Cost": (
-        '<img src="https://img.shields.io/badge/AI_Observability_&_Cost-0969DA?style=for-the-badge" alt="AI Observability & Cost" />'
-    ),
-    "Model Serving & Document Intelligence": (
-        '<img src="https://img.shields.io/badge/Model_Serving_&_Document_Intelligence-8B5CF6?style=for-the-badge" alt="Model Serving & Document Intelligence" />'
-    ),
-    "AI Security & Agents": (
-        '<img src="https://img.shields.io/badge/AI_Security_&_Agents-16A34A?style=for-the-badge" alt="AI Security & Agents" />'
-    ),
+# Minimal colored dot + lowercase heading per domain
+DOMAIN_DOTS = {
+    "LLM Gateway & Runtime": ("FF6B35", "LLM gateway & runtime"),
+    "AI Observability & Cost": ("0969DA", "AI observability & cost"),
+    "Model Serving & Document Intelligence": ("8B5CF6", "Model serving & document intelligence"),
+    "AI Security & Agents": ("16A34A", "AI security & agents"),
 }
 
 
@@ -127,7 +119,12 @@ def build_domain_section(domain, prs_with_status):
     order = {"merged": 0, "approved": 1, "in_review": 2}
     prs_with_status.sort(key=lambda x: order.get(x[1], 2))
 
-    header = DOMAIN_BADGES.get(domain, f"#### {domain}")
+    dot_info = DOMAIN_DOTS.get(domain)
+    if dot_info:
+        color, label = dot_info
+        header = f'<img src="https://img.shields.io/badge/-{color}?style=flat-square" height="11" alt="" /> &nbsp;**{label}**'
+    else:
+        header = f"**{domain}**"
     lines = [
         header,
         "",

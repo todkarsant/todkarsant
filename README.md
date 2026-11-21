@@ -33,7 +33,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 
 **16 contributions** across **10 repos** · **2 approved**
 
-<img src="https://img.shields.io/badge/LLM_Gateway_&_Runtime-FF6B35?style=for-the-badge" alt="LLM Gateway & Runtime" />
+<img src="https://img.shields.io/badge/-FF6B35?style=flat-square" height="11" alt="" /> &nbsp;**LLM gateway & runtime**
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
@@ -43,7 +43,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | [list_batches error handler had wrong HTTP method and operation name](https://github.com/BerriAI/litellm/pull/53337) | `error handler` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Microsoft-0078D4?logo=microsoft&logoColor=white" height="24"> **[semantic-kernel](https://github.com/microsoft/semantic-kernel)** `★28.8k` | [Ollama connector dropped plugin name from assistant tool calls](https://github.com/microsoft/semantic-kernel/pull/14836) | `data integrity` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
-<img src="https://img.shields.io/badge/AI_Observability_&_Cost-0969DA?style=for-the-badge" alt="AI Observability & Cost" />
+<img src="https://img.shields.io/badge/-0969DA?style=flat-square" height="11" alt="" /> &nbsp;**AI observability & cost**
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
@@ -52,7 +52,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | [Image cost not multiplied by n when generating multiple images](https://github.com/openlit/openlit/pull/1974) | `cost accuracy` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | [google-genai finish reason leaked enum repr into telemetry spans](https://github.com/openlit/openlit/pull/1975) | `data integrity` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
-<img src="https://img.shields.io/badge/Model_Serving_&_Document_Intelligence-8B5CF6?style=for-the-badge" alt="Model Serving & Document Intelligence" />
+<img src="https://img.shields.io/badge/-8B5CF6?style=flat-square" height="11" alt="" /> &nbsp;**Model serving & document intelligence**
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
@@ -60,7 +60,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> **[docling](https://github.com/docling-project/docling)** `★70k` | [Outlook .msg files with non-Unicode bodies crashed the email backend](https://github.com/docling-project/docling/pull/5439) | `crash fix` | ![approved](https://img.shields.io/badge/approved-0969da?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Apple-000000?logo=apple&logoColor=white" height="24"> **[coreai-models](https://github.com/apple/coreai-models)** `★2.4k` | [Gemma 4 support table missing minimum device RAM](https://github.com/apple/coreai-models/pull/561) | `docs` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
-<img src="https://img.shields.io/badge/AI_Security_&_Agents-16A34A?style=for-the-badge" alt="AI Security & Agents" />
+<img src="https://img.shields.io/badge/-16A34A?style=flat-square" height="11" alt="" /> &nbsp;**AI security & agents**
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
