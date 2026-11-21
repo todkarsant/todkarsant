@@ -60,12 +60,6 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> **[docling](https://github.com/docling-project/docling)** `★70k` | [Outlook .msg files with non-Unicode bodies crashed the email backend](https://github.com/docling-project/docling/pull/5439) | `crash fix` | ![approved](https://img.shields.io/badge/approved-0969da?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Apple-000000?logo=apple&logoColor=white" height="24"> **[coreai-models](https://github.com/apple/coreai-models)** `★2.4k` | [Gemma 4 support table missing minimum device RAM](https://github.com/apple/coreai-models/pull/561) | `docs` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
-#### Multi-Agent Frameworks
-
-| Project | Fix | Type | Status |
-| :-- | :-- | :--: | :--: |
-| <img src="https://img.shields.io/badge/-crewAI-5B21B6?logo=python&logoColor=white" height="24"> **[crewAI](https://github.com/crewAIInc/crewAI)** `★28k` | [CacheHandler `input` parameter shadowed Python builtin](https://github.com/crewAIInc/crewAI/pull/9642) | `code quality` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
-
 #### AI Security & Agents
 
 | Project | Fix | Type | Status |
@@ -73,6 +67,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white" height="24"> **[garak](https://github.com/NVIDIA/garak)** `★10k` | [Homoglyph detector missed non-English refusals; migrated to ModernBERTRefusal](https://github.com/NVIDIA/garak/pull/2424) | `detector migration` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white" height="24"> **[AgentLab](https://github.com/ServiceNow/AgentLab)** `★668` | [No carbon/energy tracking for LLM calls](https://github.com/ServiceNow/AgentLab/pull/343) | `observability` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white" height="24"> **[ou-generativeai-pro](https://github.com/oracle-university-labs/ou-generativeai-pro)** `★187` | [Runtime-breaking bugs across agentic AI lab modules](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) | `crash fix` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+| <img src="https://img.shields.io/badge/-crewAI-FF5A1F?logo=data:image/svg+xml;base64,PHN2Zy8+&logoColor=white" height="24"> **[crewAI](https://github.com/crewAIInc/crewAI)** `★61k` | [CacheHandler 'input' parameter shadowed Python builtin](https://github.com/crewAIInc/crewAI/pull/9642) | `code quality` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
 <!-- AUTO:OSS:END -->
 

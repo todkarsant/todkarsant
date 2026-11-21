@@ -178,5 +178,17 @@
     "fix": "Runtime-breaking bugs across agentic AI lab modules",
     "domain": "AI Security & Agents",
     "fix_type": "crash fix"
+  },
+  {
+    "owner": "crewAIInc",
+    "repo": "crewAI",
+    "number": 9642,
+    "badge": "<img src=\"https://img.shields.io/badge/-crewAI-FF5A1F?logo=data:image/svg+xml;base64,PHN2Zy8+&logoColor=white\" height=\"24\">",
+    "display_name": "crewAI",
+    "stars": "\u260561k",
+    "description": "Framework for orchestrating autonomous AI agents",
+    "fix": "CacheHandler 'input' parameter shadowed Python builtin",
+    "domain": "AI Security & Agents",
+    "fix_type": "code quality"
   }
 ]
