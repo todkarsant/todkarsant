@@ -91,5 +91,6 @@ A visual index of my upstream engineering work across AI infrastructure, develop
 | ServiceNow AgentLab | LLM tracking, carbon and energy metrics | [#343](https://github.com/ServiceNow/AgentLab/pull/343) |
 | Docling | Email/document decoding robustness | [#5439](https://github.com/docling-project/docling/pull/5439) |
 | Oracle Generative AI Labs | Agentic AI lab runtime fixes | [#14](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) |
+| crewAI | CacheHandler builtin shadow fix | [#9642](https://github.com/crewAIInc/crewAI/pull/9642) |
 
 *This page records contributions and their linked upstream discussions. It does not imply employment, sponsorship, endorsement or affiliation with the organisations shown. All logos are the respective organisations' marks.*

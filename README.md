@@ -31,7 +31,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 
 *Production bugs in AI infrastructure — LLM gateways, observability pipelines, model serving, and GPU compute — across codebases I ramp on in days, not weeks.*
 
-**15 contributions** across **9 repos** · **2 approved**
+**16 contributions** across **10 repos** · **2 approved**
 
 #### LLM Gateway & Runtime
 
@@ -59,6 +59,12 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white" height="24"> **[rocm-libraries](https://github.com/ROCm/rocm-libraries)** `★470` | [hipDNN Python bindings lacked Graph lifecycle and plan APIs](https://github.com/ROCm/rocm-libraries/pull/15453) | `API bindings` | ![approved](https://img.shields.io/badge/approved-0969da?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> **[docling](https://github.com/docling-project/docling)** `★70k` | [Outlook .msg files with non-Unicode bodies crashed the email backend](https://github.com/docling-project/docling/pull/5439) | `crash fix` | ![approved](https://img.shields.io/badge/approved-0969da?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Apple-000000?logo=apple&logoColor=white" height="24"> **[coreai-models](https://github.com/apple/coreai-models)** `★2.4k` | [Gemma 4 support table missing minimum device RAM](https://github.com/apple/coreai-models/pull/561) | `docs` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+
+#### Multi-Agent Frameworks
+
+| Project | Fix | Type | Status |
+| :-- | :-- | :--: | :--: |
+| <img src="https://img.shields.io/badge/-crewAI-5B21B6?logo=python&logoColor=white" height="24"> **[crewAI](https://github.com/crewAIInc/crewAI)** `★28k` | [CacheHandler `input` parameter shadowed Python builtin](https://github.com/crewAIInc/crewAI/pull/9642) | `code quality` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
 #### AI Security & Agents
 
