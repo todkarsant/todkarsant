@@ -32,12 +32,12 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | Project | What it is | Fix |
 | :-- | :-- | :-- |
 | <img src="https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white" height="24"> **[rocm-libraries](https://github.com/ROCm/rocm-libraries)** `★470` | AMD ROCm GPU libraries | [hipDNN Python bindings lacked Graph lifecycle and plan APIs](https://github.com/ROCm/rocm-libraries/pull/15453) |
+| <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> **[docling](https://github.com/docling-project/docling)** `★70k` | Document conversion SDK for gen AI | [Outlook .msg files with non-Unicode bodies crashed the email backend](https://github.com/docling-project/docling/pull/5439) |
 
 ### In review
 
 | Project | What it is | Fix |
 | :-- | :-- | :-- |
-| <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> **[docling](https://github.com/docling-project/docling)** `★70k` | Document conversion SDK for gen AI | [Outlook .msg files with non-Unicode bodies crashed the email backend](https://github.com/docling-project/docling/pull/5439) |
 | <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | AI gateway for 100+ LLM APIs | [Bedrock Nova Canvas missing-image error surfaced as retryable 500 instead of 400](https://github.com/BerriAI/litellm/pull/52542) |
 | <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | AI gateway for 100+ LLM APIs | [File endpoints raised ValueError (500) for unsupported providers instead of BadRequestError (400)](https://github.com/BerriAI/litellm/pull/52850) |
 | <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | AI gateway for 100+ LLM APIs | [duration_parser regex accepted invalid suffixes](https://github.com/BerriAI/litellm/pull/52851) |
