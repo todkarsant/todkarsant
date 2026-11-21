@@ -122,7 +122,7 @@ def build_domain_section(domain, prs_with_status):
     dot_info = DOMAIN_DOTS.get(domain)
     if dot_info:
         color, label = dot_info
-        header = f'<img src="https://img.shields.io/badge/-{color}?style=flat-square" height="11" alt="" /> &nbsp;**{label}**'
+        header = f'<h4><img src="https://img.shields.io/badge/-{color}?style=flat-square" height="12" alt="" /> &nbsp;{label}</h4>'
     else:
         header = f"**{domain}**"
     lines = [
