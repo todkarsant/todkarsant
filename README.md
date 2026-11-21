@@ -119,6 +119,6 @@ A multi-agent conversational system — 7 specialist agents orchestrated by Lang
 ## Credentials
 
 - **400+ research citations** — [Google Scholar](https://scholar.google.com/citations?hl=en&user=YLQtVPYAAAAJ)
-- **Ph.D.** — applied research background in materials science and engineering
+- **Ph.D.** — applied research background in sustainable materials
 - **2 enterprise AI systems in production** — document intelligence + conversational analytics
 
