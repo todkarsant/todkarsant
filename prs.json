@@ -7,7 +7,7 @@
     "display_name": "litellm",
     "stars": "\u260563k",
     "description": "AI gateway for 100+ LLM APIs",
-    "fix": "Bedrock Nova Canvas missing-image error surfaced as retryable 500 instead of 400",
+    "fix": "Missing images in Nova Canvas triggered retryable 500s instead of 400s",
     "domain": "LLM Gateway & Runtime",
     "fix_type": "error propagation"
   },
@@ -19,7 +19,7 @@
     "display_name": "litellm",
     "stars": "\u260563k",
     "description": "AI gateway for 100+ LLM APIs",
-    "fix": "File endpoints raised ValueError (500) for unsupported providers instead of BadRequestError (400)",
+    "fix": "Unsupported providers crashed file endpoints with 500s",
     "domain": "LLM Gateway & Runtime",
     "fix_type": "error propagation"
   },
@@ -31,7 +31,7 @@
     "display_name": "litellm",
     "stars": "\u260563k",
     "description": "AI gateway for 100+ LLM APIs",
-    "fix": "duration_parser regex accepted invalid suffixes, breaking stored budgets",
+    "fix": "Invalid duration suffixes silently corrupted budget resets",
     "domain": "LLM Gateway & Runtime",
     "fix_type": "backward compat"
   },
@@ -43,7 +43,7 @@
     "display_name": "litellm",
     "stars": "\u260563k",
     "description": "AI gateway for 100+ LLM APIs",
-    "fix": "list_batches error handler had wrong HTTP method and operation name",
+    "fix": "Batch listing errors reported wrong HTTP method from copy-paste",
     "domain": "LLM Gateway & Runtime",
     "fix_type": "error handler"
   },
@@ -55,7 +55,7 @@
     "display_name": "semantic-kernel",
     "stars": "\u260528.8k",
     "description": "LLM app framework \u2014 plugins, planners, memory",
-    "fix": "Ollama connector dropped plugin name from assistant tool calls",
+    "fix": "Ollama tool calls silently dropped plugin names",
     "domain": "LLM Gateway & Runtime",
     "fix_type": "data integrity"
   },
@@ -67,7 +67,7 @@
     "display_name": "openlit",
     "stars": "\u26053.1k",
     "description": "AI observability and cost optimization",
-    "fix": "Qdrant instrumentation double-passed positional args, crashing traced calls",
+    "fix": "Traced Qdrant calls crashed on positional arguments",
     "domain": "AI Observability & Cost",
     "fix_type": "telemetry"
   },
@@ -79,7 +79,7 @@
     "display_name": "openlit",
     "stars": "\u26053.1k",
     "description": "AI observability and cost optimization",
-    "fix": "CLI --no_capture_message_content flag was unregistered in argparse",
+    "fix": "CLI privacy flag --no_capture_message_content was silently ignored",
     "domain": "AI Observability & Cost",
     "fix_type": "CLI"
   },
@@ -91,7 +91,7 @@
     "display_name": "openlit",
     "stars": "\u26053.1k",
     "description": "AI observability and cost optimization",
-    "fix": "Image cost not multiplied by n when generating multiple images",
+    "fix": "Multi-image generations reported 1/n of real cost",
     "domain": "AI Observability & Cost",
     "fix_type": "cost accuracy"
   },
@@ -103,7 +103,7 @@
     "display_name": "openlit",
     "stars": "\u26053.1k",
     "description": "AI observability and cost optimization",
-    "fix": "google-genai finish reason leaked enum repr into telemetry spans",
+    "fix": "Finish reasons leaked Python enum repr into telemetry",
     "domain": "AI Observability & Cost",
     "fix_type": "data integrity"
   },
@@ -115,7 +115,7 @@
     "display_name": "rocm-libraries",
     "stars": "\u2605470",
     "description": "AMD ROCm GPU libraries",
-    "fix": "hipDNN Python bindings lacked Graph lifecycle and plan APIs",
+    "fix": "hipDNN Python bindings missing Graph lifecycle APIs",
     "domain": "Model Serving & Document Intelligence",
     "fix_type": "API bindings"
   },
@@ -127,7 +127,7 @@
     "display_name": "docling",
     "stars": "\u260570k",
     "description": "Document conversion SDK for gen AI",
-    "fix": "Outlook .msg files with non-Unicode bodies crashed the email backend",
+    "fix": "Non-Unicode .msg files crashed the email parser",
     "domain": "Model Serving & Document Intelligence",
     "fix_type": "crash fix"
   },
@@ -139,7 +139,7 @@
     "display_name": "coreai-models",
     "stars": "\u26052.4k",
     "description": "On-device AI model recipes",
-    "fix": "Gemma 4 support table missing minimum device RAM",
+    "fix": "Gemma 4 docs missing minimum RAM per device",
     "domain": "Model Serving & Document Intelligence",
     "fix_type": "docs"
   },
@@ -151,7 +151,7 @@
     "display_name": "garak",
     "stars": "\u260510k",
     "description": "LLM vulnerability scanner",
-    "fix": "Homoglyph detector missed non-English refusals; migrated to ModernBERTRefusal",
+    "fix": "Homoglyph detector missed non-English refusals",
     "domain": "AI Security & Agents",
     "fix_type": "detector migration"
   },
@@ -163,7 +163,7 @@
     "display_name": "AgentLab",
     "stars": "\u2605668",
     "description": "Web agent benchmarking framework",
-    "fix": "No carbon/energy tracking for LLM calls",
+    "fix": "LLM calls had no carbon or energy tracking",
     "domain": "AI Security & Agents",
     "fix_type": "observability"
   },
@@ -175,7 +175,7 @@
     "display_name": "ou-generativeai-pro",
     "stars": "\u2605187",
     "description": "Oracle University GenAI labs",
-    "fix": "Runtime-breaking bugs across agentic AI lab modules",
+    "fix": "Runtime crashes across agentic AI lab modules",
     "domain": "AI Security & Agents",
     "fix_type": "crash fix"
   },
@@ -187,7 +187,7 @@
     "display_name": "crewAI",
     "stars": "\u260561k",
     "description": "Framework for orchestrating autonomous AI agents",
-    "fix": "CacheHandler 'input' parameter shadowed Python builtin",
+    "fix": "CacheHandler parameter shadowed Python's input() builtin",
     "domain": "AI Security & Agents",
     "fix_type": "code quality"
   }
