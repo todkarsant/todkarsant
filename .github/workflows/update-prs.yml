@@ -2,14 +2,19 @@ name: Update PR Status
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 * * * *'
   push:
     paths:
       - 'prs.json'
+      - 'scripts/update_readme.py'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-pr-status
+  cancel-in-progress: true
 
 jobs:
   update:
