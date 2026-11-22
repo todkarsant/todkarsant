@@ -2,7 +2,7 @@ name: Update PR Status
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 */2 * * *'
   push:
     paths:
       - 'prs.json'
