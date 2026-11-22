@@ -31,9 +31,9 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 
 *Production bugs in AI infrastructure — LLM gateways, observability pipelines, model serving, and GPU compute — across codebases I ramp on in days, not weeks.*
 
-**16 contributions** across **10 repos** · **1 merged** · **1 approved**
+**17 contributions** across **11 repos** · **1 merged** · **1 approved**
 
-<h4>Model serving & document intelligence · 3/16</h4>
+<h4>Model serving & document intelligence · 3/17</h4>
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
@@ -41,7 +41,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white" height="24"> **[rocm-libraries](https://github.com/ROCm/rocm-libraries)** `★470` | [hipDNN Python bindings missing Graph lifecycle APIs](https://github.com/ROCm/rocm-libraries/pull/15453) | `API bindings` | ![approved](https://img.shields.io/badge/approved-0969da?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Apple-000000?logo=apple&logoColor=white" height="24"> **[coreai-models](https://github.com/apple/coreai-models)** `★2.4k` | [Gemma 4 docs missing minimum RAM per device](https://github.com/apple/coreai-models/pull/561) | `docs` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
-<h4>LLM gateway & runtime · 5/16</h4>
+<h4>LLM gateway & runtime · 5/17</h4>
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
@@ -51,7 +51,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `★63k` | [Batch listing errors reported wrong HTTP method from copy-paste](https://github.com/BerriAI/litellm/pull/53337) | `error handler` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Microsoft-0078D4?logo=microsoft&logoColor=white" height="24"> **[semantic-kernel](https://github.com/microsoft/semantic-kernel)** `★28.8k` | [Ollama tool calls silently dropped plugin names](https://github.com/microsoft/semantic-kernel/pull/14836) | `data integrity` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
-<h4>AI observability & cost · 4/16</h4>
+<h4>AI observability & cost · 4/17</h4>
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
@@ -60,7 +60,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | [Multi-image generations reported 1/n of real cost](https://github.com/openlit/openlit/pull/1974) | `cost accuracy` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `★3.1k` | [Finish reasons leaked Python enum repr into telemetry](https://github.com/openlit/openlit/pull/1975) | `data integrity` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
-<h4>AI security & agents · 4/16</h4>
+<h4>AI security & agents · 5/17</h4>
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
@@ -68,6 +68,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white" height="24"> **[AgentLab](https://github.com/ServiceNow/AgentLab)** `★668` | [LLM calls had no carbon or energy tracking](https://github.com/ServiceNow/AgentLab/pull/343) | `observability` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white" height="24"> **[ou-generativeai-pro](https://github.com/oracle-university-labs/ou-generativeai-pro)** `★187` | [Runtime crashes across agentic AI lab modules](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) | `crash fix` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-crewAI-FF5A1F?logo=data:image/svg+xml;base64,PHN2Zy8+&logoColor=white" height="24"> **[crewAI](https://github.com/crewAIInc/crewAI)** `★61k` | [CacheHandler parameter shadowed Python's input() builtin](https://github.com/crewAIInc/crewAI/pull/9642) | `code quality` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
+| <img src="https://img.shields.io/badge/-OpenHands-6366F1?logo=data:image/svg+xml;base64,PHN2Zy8+&logoColor=white" height="24"> **[software-agent-sdk](https://github.com/OpenHands/software-agent-sdk)** `★1.4k` | [RemoteWorkspace rejected pathlib.Path for working_dir](https://github.com/OpenHands/software-agent-sdk/pull/7069) | `type handling` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
 <!-- AUTO:OSS:END -->
 
