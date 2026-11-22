@@ -190,5 +190,17 @@
     "fix": "CacheHandler parameter shadowed Python's input() builtin",
     "domain": "AI Security & Agents",
     "fix_type": "code quality"
+  },
+  {
+    "owner": "OpenHands",
+    "repo": "software-agent-sdk",
+    "number": 7069,
+    "badge": "<img src=\"https://img.shields.io/badge/-OpenHands-6366F1?logo=data:image/svg+xml;base64,PHN2Zy8+&logoColor=white\" height=\"24\">",
+    "display_name": "software-agent-sdk",
+    "stars": "\u26051.4k",
+    "description": "Modular SDK for building AI software agents",
+    "fix": "RemoteWorkspace rejected pathlib.Path for working_dir",
+    "domain": "AI Security & Agents",
+    "fix_type": "type handling"
   }
 ]
