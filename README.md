@@ -31,14 +31,14 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 
 *Production bugs in AI infrastructure — LLM gateways, observability pipelines, model serving, and GPU compute — across codebases I ramp on in days, not weeks.*
 
-**17 contributions** across **11 repos** · **1 merged** · **1 approved**
+**17 contributions** across **11 repos** · **2 merged**
 
 <h4>Model serving & document intelligence · 3/17</h4>
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
+| <img src="https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white" height="24"> **[rocm-libraries](https://github.com/ROCm/rocm-libraries)** `★470` | [hipDNN Python bindings missing Graph lifecycle APIs](https://github.com/ROCm/rocm-libraries/pull/15453) | `API bindings` | ![merged](https://img.shields.io/badge/merged-2ea44f?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> **[docling](https://github.com/docling-project/docling)** `★70k` | [Non-Unicode .msg files crashed the email parser](https://github.com/docling-project/docling/pull/5439) | `crash fix` | ![merged](https://img.shields.io/badge/merged-2ea44f?style=flat-square) |
-| <img src="https://img.shields.io/badge/-AMD-ED1C24?logo=amd&logoColor=white" height="24"> **[rocm-libraries](https://github.com/ROCm/rocm-libraries)** `★470` | [hipDNN Python bindings missing Graph lifecycle APIs](https://github.com/ROCm/rocm-libraries/pull/15453) | `API bindings` | ![approved](https://img.shields.io/badge/approved-0969da?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Apple-000000?logo=apple&logoColor=white" height="24"> **[coreai-models](https://github.com/apple/coreai-models)** `★2.4k` | [Gemma 4 docs missing minimum RAM per device](https://github.com/apple/coreai-models/pull/561) | `docs` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
 <h4>LLM gateway & runtime · 5/17</h4>
