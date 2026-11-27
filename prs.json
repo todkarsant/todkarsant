@@ -204,16 +204,16 @@
     "fix_type": "type handling"
   },
   {
-    "owner": "docling-project",
-    "repo": "docling-serve",
-    "number": 785,
-    "badge": "<img src=\"https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white\" height=\"24\">",
-    "display_name": "docling-serve",
-    "stars": "\u00e2\u02dc\u20261.9k",
-    "description": "Running Docling as an API service",
-    "fix": "ROCm Docker build failed with Resource busy on venv recreate",
-    "domain": "Model Serving & Document Intelligence",
-    "fix_type": "container build"
+    "owner": "microsoft",
+    "repo": "AI-Red-Teaming-Playground-Labs",
+    "number": 74,
+    "badge": "<img src=\"https://img.shields.io/badge/-Microsoft-0078D4?logo=microsoft&logoColor=white\" height=\"24\">",
+    "display_name": "AI-Red-Teaming-Playground-Labs",
+    "stars": "\u2605 2.3k",
+    "description": "AI Red Teaming playground labs with infrastructure",
+    "fix": "Notebooks used deprecated PyRIT v0.9 orchestrator API",
+    "domain": "AI Security & Agents",
+    "fix_type": "API migration"
   },
   {
     "owner": "docling-project",

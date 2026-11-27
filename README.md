@@ -31,9 +31,9 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 
 *Production bugs in AI infrastructure — LLM gateways, observability pipelines, model serving, and GPU compute — across codebases I ramp on in days, not weeks.*
 
-**19 contributions** across **12 repos** · **4 merged**
+**20 contributions** across **13 repos** · **4 merged**
 
-<h4>Model serving & document intelligence · 5/19</h4>
+<h4>Model serving & document intelligence · 5/20</h4>
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
@@ -43,7 +43,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-Docling-1A1A2E?logo=python&logoColor=white" height="24"> **[docling-serve](https://github.com/docling-project/docling-serve)** `★ 1.9k` | [Scratch dir cleanup condition inverted — leaked temp dirs](https://github.com/docling-project/docling-serve/pull/790) | `bug fix` | ![merged](https://img.shields.io/badge/merged-2ea44f?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Apple-000000?logo=apple&logoColor=white" height="24"> **[coreai-models](https://github.com/apple/coreai-models)** `â˜…2.4k` | [Gemma 4 docs missing minimum RAM per device](https://github.com/apple/coreai-models/pull/561) | `docs` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
-<h4>LLM gateway & runtime · 5/19</h4>
+<h4>LLM gateway & runtime · 5/20</h4>
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
@@ -53,7 +53,7 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-LiteLLM-FF6F00?logo=lightning&logoColor=white" height="24"> **[litellm](https://github.com/BerriAI/litellm)** `â˜…63k` | [Batch listing errors reported wrong HTTP method from copy-paste](https://github.com/BerriAI/litellm/pull/53337) | `error handler` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Microsoft-0078D4?logo=microsoft&logoColor=white" height="24"> **[semantic-kernel](https://github.com/microsoft/semantic-kernel)** `â˜…28.8k` | [Ollama tool calls silently dropped plugin names](https://github.com/microsoft/semantic-kernel/pull/14836) | `data integrity` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
-<h4>AI observability & cost · 4/19</h4>
+<h4>AI observability & cost · 4/20</h4>
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
@@ -62,10 +62,11 @@ Currently researching **[evidence-to-action reliability in AI agents](https://gi
 | <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `â˜…3.1k` | [Multi-image generations reported 1/n of real cost](https://github.com/openlit/openlit/pull/1974) | `cost accuracy` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-OpenLIT-4A90D9?logo=opentelemetry&logoColor=white" height="24"> **[openlit](https://github.com/openlit/openlit)** `â˜…3.1k` | [Finish reasons leaked Python enum repr into telemetry](https://github.com/openlit/openlit/pull/1975) | `data integrity` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 
-<h4>AI security & agents · 5/19</h4>
+<h4>AI security & agents · 6/20</h4>
 
 | Project | Fix | Type | Status |
 | :-- | :-- | :--: | :--: |
+| <img src="https://img.shields.io/badge/-Microsoft-0078D4?logo=microsoft&logoColor=white" height="24"> **[AI-Red-Teaming-Playground-Labs](https://github.com/microsoft/AI-Red-Teaming-Playground-Labs)** `â˜…2.3k` | [Notebooks used deprecated PyRIT v0.9 orchestrator API](https://github.com/microsoft/AI-Red-Teaming-Playground-Labs/pull/74) | `API migration` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-NVIDIA-76B900?logo=nvidia&logoColor=white" height="24"> **[garak](https://github.com/NVIDIA/garak)** `â˜…10k` | [Homoglyph detector missed non-English refusals](https://github.com/NVIDIA/garak/pull/2424) | `detector migration` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-ServiceNow-62D84E?logo=servicenow&logoColor=white" height="24"> **[AgentLab](https://github.com/ServiceNow/AgentLab)** `â˜…668` | [LLM calls had no carbon or energy tracking](https://github.com/ServiceNow/AgentLab/pull/343) | `observability` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
 | <img src="https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white" height="24"> **[ou-generativeai-pro](https://github.com/oracle-university-labs/ou-generativeai-pro)** `â˜…187` | [Runtime crashes across agentic AI lab modules](https://github.com/oracle-university-labs/ou-generativeai-pro/pull/14) | `crash fix` | ![in review](https://img.shields.io/badge/in_review-e3b341?style=flat-square) |
