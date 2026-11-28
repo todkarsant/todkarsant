@@ -216,6 +216,30 @@
     "fix_type": "API migration"
   },
   {
+    "owner": "data-privacy-stack",
+    "repo": "presidio",
+    "number": 2564,
+    "badge": "<img src=\"https://img.shields.io/badge/-Microsoft-0078D4?logo=microsoft&logoColor=white\" height=\"24\">",
+    "display_name": "presidio",
+    "stars": "\u2605 12k",
+    "description": "PII detection and anonymization SDK",
+    "fix": "Indian driving licence numbers had no PII detection",
+    "domain": "AI Security & Agents",
+    "fix_type": "recognizer"
+  },
+  {
+    "owner": "qualcomm",
+    "repo": "ai-hub-models",
+    "number": 377,
+    "badge": "<img src=\"https://img.shields.io/badge/-Qualcomm-3253DC?logo=qualcomm&logoColor=white\" height=\"24\">",
+    "display_name": "ai-hub-models",
+    "stars": "\u2605 1.3k",
+    "description": "Optimized ML models for Qualcomm AI Hub",
+    "fix": "CLI commands lacked machine-readable output",
+    "domain": "Model Serving & Document Intelligence",
+    "fix_type": "feature"
+  },
+  {
     "owner": "docling-project",
     "repo": "docling-serve",
     "number": 789,
